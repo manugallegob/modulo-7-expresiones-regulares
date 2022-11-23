@@ -85,7 +85,7 @@ console.log("");
 console.log("//////// Ejercicio Extra 3 ////////");
 console.log("");
 
-const pattern6 = /^(\+\d{2})2\s?(9|6)(\d{2})(\s?(\d{2})){3}/i;
+const pattern6 = /^(\+\d{2})?\s?(9|6)(\d{2})(\s?(\d{2})){3}/i;
 const values6 = [
   "+34 952 35 42 77",
   "+34 652 35 42 77",
